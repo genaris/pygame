@@ -6416,7 +6416,7 @@ static int __pyx_pymod_exec_pypm(PyObject *__pyx_pyinit_module)
   /*--- Function export code ---*/
   /*--- Type init code ---*/
   if (PyType_Ready(&__pyx_type_4pypm_Output) < 0) __PYX_ERR(0, 248, __pyx_L1_error)
-  __pyx_type_4pypm_Output.tp_print = 0;
+  //__pyx_type_4pypm_Output.tp_print = 0;
   #if CYTHON_COMPILING_IN_CPYTHON
   {
     PyObject *wrapper = PyObject_GetAttrString((PyObject *)&__pyx_type_4pypm_Output, "__init__"); if (unlikely(!wrapper)) __PYX_ERR(0, 248, __pyx_L1_error)
@@ -6431,7 +6431,7 @@ static int __pyx_pymod_exec_pypm(PyObject *__pyx_pyinit_module)
   if (__Pyx_setup_reduce((PyObject*)&__pyx_type_4pypm_Output) < 0) __PYX_ERR(0, 248, __pyx_L1_error)
   __pyx_ptype_4pypm_Output = &__pyx_type_4pypm_Output;
   if (PyType_Ready(&__pyx_type_4pypm_Input) < 0) __PYX_ERR(0, 509, __pyx_L1_error)
-  __pyx_type_4pypm_Input.tp_print = 0;
+  //__pyx_type_4pypm_Input.tp_print = 0;
   #if CYTHON_COMPILING_IN_CPYTHON
   {
     PyObject *wrapper = PyObject_GetAttrString((PyObject *)&__pyx_type_4pypm_Input, "__init__"); if (unlikely(!wrapper)) __PYX_ERR(0, 509, __pyx_L1_error)
